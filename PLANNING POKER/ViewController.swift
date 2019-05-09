@@ -75,5 +75,3 @@ class ViewController: UIViewController {
     @IBAction func setValue13(_ sender: UIButton) { setValue(13) }
     @IBAction func setValue14(_ sender: UIButton) { setValue(14) }
 }
-
-//TEST for GitHub
