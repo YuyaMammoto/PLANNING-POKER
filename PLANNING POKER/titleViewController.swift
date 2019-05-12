@@ -20,7 +20,6 @@ class titleViewController: UIViewController {
         titleLabel.attributedText = titleText
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            // 0.5秒後に実行したい処理
             self.performSegue(withIdentifier: "titleToSet", sender: nil)
         }
         
